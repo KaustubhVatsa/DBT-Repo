@@ -11,7 +11,7 @@
 
 with source_data as (
 
-    select  id
+    select  id from city
     where id<=3
 
 )
